@@ -8,3 +8,6 @@ notes: to change the line between header boxes, change the following values:
             top: calc(-13.5rem - 1px);
             height: calc(13.5rem + 1px);
         }
+
+
+to remove the line completely, I've set height: 0
