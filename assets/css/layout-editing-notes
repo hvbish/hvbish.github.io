@@ -1,0 +1,10 @@
+notes: to change the line between header boxes, change the following values:
+
+#header > * {
+			margin-top: 13.5rem;
+		}
+
+        #header > *:before {
+            top: calc(-13.5rem - 1px);
+            height: calc(13.5rem + 1px);
+        }
