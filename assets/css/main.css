@@ -144,7 +144,7 @@ input, select, textarea {
 		font-family: "Source Sans Pro", sans-serif;
 		font-weight: 300;
 		font-size: 1rem;
-		line-height: 2;
+		line-height: 1.5;
 	}
 
 	a {
@@ -172,7 +172,7 @@ input, select, textarea {
 
 	p {
 		margin: 0 0 0 0;
-		font-size: larger;
+		font-size: large;
 
 	}
 
@@ -1286,6 +1286,7 @@ input, select, textarea {
 		background-image: radial-gradient(rgba(0, 0, 0, 0.25) 25%, rgba(0, 0, 0, 0) 55%);
 		max-width: 100%;
 		text-align: center;
+		height:100%
 	}
 
 		#header > * {
