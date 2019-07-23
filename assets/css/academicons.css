@@ -15,7 +15,7 @@
     font-style: normal;
 }
 .ai {
-	display:inline-block;
+	/* display:inline-block; */
 	font:normal normal normal 14px/1 Academicons;
 	font-size:inherit;
 	text-rendering:auto;
