@@ -1327,7 +1327,7 @@ input, select, textarea {
 				top: calc(-13.5rem - 1px);
 				left: calc(50% - 1px);
 				width: 1px;
-				height: 0 /*calc(13.5rem + 1px);*/
+				height: 0 /*calc(13.5rem + 1px);*/;
 				background: #ffffff;
 			}
 
