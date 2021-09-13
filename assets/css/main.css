@@ -619,24 +619,24 @@ input, select, textarea {
 
 /* Alternate Icon */
 
-.alticon {
-	text-decoration: none;
-	border-bottom: none;
-	position: relative;
-}
-
-	.alticon:before {
-		-moz-osx-font-smoothing: grayscale;
-		-webkit-font-smoothing: antialiased;
-		font-family: FontAwesome;
-		font-style: normal;
-		font-weight: normal;
-		text-transform: none !important;
+	.alticon {
+		text-decoration: none;
+		border-bottom: none;
+		position: relative;
 	}
 
-	.alticon > .label {
-		/* display: none; */
-	}
+		.alticon:before {
+			-moz-osx-font-smoothing: grayscale;
+			-webkit-font-smoothing: antialiased;
+			font-family: FontAwesome;
+			font-style: normal;
+			font-weight: normal;
+			text-transform: none !important;
+		}
+
+		.alticon > .label {
+			/* display: none; */
+		}
 
 /* Image */
 
@@ -1684,9 +1684,9 @@ input, select, textarea {
 					text-align: -webkit-match-parent;
 				}
 
-					/* #main-head nav ul li a:hover {
+					#main-head nav ul li a:hover {
 						background-color: rgba(255, 255, 255, 0.075);
-					} */
+					} 
 
 					#main-head nav ul li a:active {
 						background-color: rgba(255, 255, 255, 0.175);
